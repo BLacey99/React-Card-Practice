@@ -1,0 +1,82 @@
+img, picture, video{
+    max-width:100%;
+}
+html{
+    font-size:1em;
+}
+#card-container{
+    display:flex;
+    flex-direction:column;
+    width:175px;
+    background-color:rgb(39, 45, 68);
+    color:white;
+    border-radius:15px;
+    box-shadow:5px 5px 7px 0px rgba(78, 76, 76, 0.5);
+    border:2px black solid;
+    flex:0 0 auto;
+    margin:0.5%;
+    float:left;
+    margin-top:2%;
+    
+}
+
+#card-container:hover{
+    scale:110%;
+}
+
+h3{
+    color:goldenrod;
+    padding:0;
+    margin:5%;
+}
+
+button{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:5px;
+    color:black;
+    background-color:rgb(255, 255, 255);
+}
+
+button:hover{
+    background-color:blanchedalmond;
+    scale:95%;
+    cursor:grab;
+}
+
+.testimonials{
+    text-align:left;
+    padding:2% 15%;
+    font-size:0.8rem;
+}
+
+.titles{
+    font-weight:bold;
+}
+
+.content{
+    font-size:0.8rem;
+}
+
+img{
+    border-radius:15px;
+}
+
+
+.socials{
+    background-color:rgb(22, 31, 59);
+    display:flex;
+    gap:5%;
+    width:100%;
+    font-size:0.8em;
+    justify-content:center;
+    border-radius:15px;
+}
+
+.socials p:hover{
+    color:blanchedalmond;
+    scale:95%;
+    text-decoration:underline;
+    cursor:grab;
+}
